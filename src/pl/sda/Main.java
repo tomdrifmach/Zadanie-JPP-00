@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("What is you weight in kg?");
-        double weight = sc.nextFloat();
+        double weight = sc.nextDouble();
         System.out.println("What is you height in m?");
-        double height = sc.nextFloat();
+        double height = sc.nextDouble();
         System.out.println("Your BMI is "+bmi(weight,height));
     }
 
