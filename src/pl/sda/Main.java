@@ -6,13 +6,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("What is you weight in kg?");
-        float weight = sc.nextFloat();
+        double weight = sc.nextFloat();
         System.out.println("What is you height in m?");
-        float height = sc.nextFloat();
+        double height = sc.nextFloat();
         System.out.println("Your BMI is "+bmi(weight,height));
     }
 
-    private static float bmi(float weight, float height) {
+    private static double bmi(double weight, double height) {
         return weight/(height*height);
     }
 }
